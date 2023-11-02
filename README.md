@@ -10,7 +10,8 @@ int main() {
 	 int A=50,Sayi;
 	 printf("*****Sayi Tahmin Oyunu*****\n\n");
 	 
-	 while(Sayi=A)
+	 while(Sayi=A) /*Amaç sonsuz döngü yapıp tahmin edilen sayı bulunana kadar döngüyü çalıştırmak.*/
+
 	{
 	  printf("Bir sayi giriniz:"),
 	 scanf("%d",&Sayi);
