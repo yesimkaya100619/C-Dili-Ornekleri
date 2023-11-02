@@ -1,4 +1,4 @@
-# say--tahmin-oyunu
+# sayi--tahmin-oyunu
 c örnekleri
 
 #include <stdio.h>
