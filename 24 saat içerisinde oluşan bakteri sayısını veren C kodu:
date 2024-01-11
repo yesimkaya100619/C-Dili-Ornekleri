@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* 24 saat içerisinde oluşan bakteri sayısını veren C kodu: */
+
+int main() {
+	
+	int t=24,toplam=0,i,a=1;
+	for(i=0;i<24;i++){
+		toplam+=a*2^i;
+	}
+	printf("Toplam:%d",toplam);
+	
+
+	return 0;
+}
